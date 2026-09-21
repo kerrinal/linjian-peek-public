@@ -1,28 +1,28 @@
 {
-  "latest_version_name": "0.3.8.8",
-  "latest_version_code": 30808,
-  "apk_url": "https://github.com/linzhi-524/linjian-peek-public/releases/download/v0.3.8.8/Zhangxinchuang-public-v0.3.8.8.apk",
+  "latest_version_name": "0.3.8.9",
+  "latest_version_code": 30809,
+  "apk_url": "https://github.com/linzhi-524/linjian-peek-public/releases/download/v0.3.8.9/Zhangxinchuang-public-v0.3.8.9.apk",
   "sha256": "",
   "required": false,
   "notes": [
-    "修复「此刻状态」中媒体权限已开启但仍显示“暂无媒体播放”的问题。",
-    "媒体状态新增 MediaSession 主动读取，不再只依赖通知回调，兼容更多音乐/视频 App。",
-    "保留通知监听扫描作为兜底：通知回调和活跃媒体会话任一方式读到内容即可显示。",
-    "保留隐私限制：仅读取媒体标题、歌手、专辑、播放状态和应用名，不读取通知正文。",
-    "版本号升级到 v0.3.8.8 / 30808，固定签名保持不变。"
+    "修复部分 AI 平台连接 MCP 时因 experimental.ovoActivityCards 触发 Invalid input 的兼容问题。",
+    "修复日记批注读取工具返回 noop：server 白名单补齐 read/list/add/mark/delete annotation 相关 action。",
+    "保留上一版媒体状态修复：MediaSession 主动读取媒体播放状态，通知监听作为兜底。",
+    "版本号升级到 v0.3.8.9 / 30809，固定签名保持不变。",
+    "部署提示：MCP 服务与 server 服务都需要重新部署；手机 App 如需显示新版本号需重新打包安装。"
   ],
   "changelog": [
-    "修复「此刻状态」中媒体权限已开启但仍显示“暂无媒体播放”的问题。",
-    "媒体状态新增 MediaSession 主动读取，不再只依赖通知回调，兼容更多音乐/视频 App。",
-    "保留通知监听扫描作为兜底：通知回调和活跃媒体会话任一方式读到内容即可显示。",
-    "保留隐私限制：仅读取媒体标题、歌手、专辑、播放状态和应用名，不读取通知正文。",
-    "版本号升级到 v0.3.8.8 / 30808，固定签名保持不变。"
+    "修复部分 AI 平台连接 MCP 时因 experimental.ovoActivityCards 触发 Invalid input 的兼容问题。",
+    "修复日记批注读取工具返回 noop：server 白名单补齐 read/list/add/mark/delete annotation 相关 action。",
+    "保留上一版媒体状态修复：MediaSession 主动读取媒体播放状态，通知监听作为兜底。",
+    "版本号升级到 v0.3.8.9 / 30809，固定签名保持不变。",
+    "部署提示：MCP 服务与 server 服务都需要重新部署；手机 App 如需显示新版本号需重新打包安装。"
   ],
   "release_notes": [
-    "修复「此刻状态」中媒体权限已开启但仍显示“暂无媒体播放”的问题。",
-    "媒体状态新增 MediaSession 主动读取，不再只依赖通知回调，兼容更多音乐/视频 App。",
-    "保留通知监听扫描作为兜底：通知回调和活跃媒体会话任一方式读到内容即可显示。",
-    "保留隐私限制：仅读取媒体标题、歌手、专辑、播放状态和应用名，不读取通知正文。",
-    "版本号升级到 v0.3.8.8 / 30808，固定签名保持不变。"
+    "修复部分 AI 平台连接 MCP 时因 experimental.ovoActivityCards 触发 Invalid input 的兼容问题。",
+    "修复日记批注读取工具返回 noop：server 白名单补齐 read/list/add/mark/delete annotation 相关 action。",
+    "保留上一版媒体状态修复：MediaSession 主动读取媒体播放状态，通知监听作为兜底。",
+    "版本号升级到 v0.3.8.9 / 30809，固定签名保持不变。",
+    "部署提示：MCP 服务与 server 服务都需要重新部署；手机 App 如需显示新版本号需重新打包安装。"
   ]
 }

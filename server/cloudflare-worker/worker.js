@@ -1,4 +1,4 @@
-const VERSION = "0.3.8.8-public-diary-annotations";
+const VERSION = "0.3.8.9-public-diary-annotations";
 // MCP Apps clients cache UI resources by URI. Change the URI whenever the HTML changes.
 const STICKER_WIDGET_URI = "ui://linjian/sticker-card-v0433.html";
 const STICKER_WIDGET_ORIGIN = "https://linjian-peek-cloudflare.linzhi524.workers.dev";
